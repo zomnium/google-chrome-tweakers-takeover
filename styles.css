@@ -1,0 +1,12 @@
+
+.takeoverBg {
+	background: transparent !important;
+}
+
+.advertorial,
+.leaderBoard,
+.takeover,
+.adLabel,
+div[id*='ad_container'] {
+	display: none !important;
+}
