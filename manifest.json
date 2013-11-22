@@ -1,0 +1,12 @@
+{
+    "name": "Tweakers Takeover",
+    "description": "Hide those bad-ass takeovers.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["http://tweakers.net/*"],
+            "css": ["styles.css"]
+        }
+    ]
+}
